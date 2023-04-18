@@ -21,6 +21,8 @@ const config = {
                     'expo-document-picker',
                     'expo-av',
                     'expo-asset',
+                    'tamagui',
+                    'tamagui-phosphor-icons',
                     '@tamagui-extras/core'
                 ],
 
