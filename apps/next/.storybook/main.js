@@ -21,6 +21,7 @@ const config = {
                     'expo-document-picker',
                     'expo-av',
                     'expo-asset',
+                    'react-native-svg',
                     'tamagui',
                     'tamagui-phosphor-icons',
                     '@tamagui-extras/core'
