@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "@my/ui": "*",
-    "@tamagui-extras/link": "1.0.3",
+    "@tamagui-extras/link": "1.0.4",
     "@tamagui/animations-react-native": "^1.15.15",
     "@tamagui/colors": "^1.15.15",
     "@tamagui/font-inter": "^1.15.15",

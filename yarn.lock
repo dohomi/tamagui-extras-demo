@@ -4905,15 +4905,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tamagui-extras/link@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@tamagui-extras/link@npm:1.0.3"
+"@tamagui-extras/link@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@tamagui-extras/link@npm:1.0.4"
   peerDependencies:
     react: "*"
     react-native: "*"
     solito: ^3.0.0
     tamagui: 1.15.14
-  checksum: c34570a6fea141e39983af6a291f55a0b703c633013f3a7ebebebaf0c9a1fb3ef4a5ebcbc262ece9a968f507a45f3b929acc6846c9ef2c87f2cd562ed5be4da1
+  checksum: 35f4fd01df651f81e6eadcc41f5a622db8c9a1e01cb23eca37d19cbb1bd96a11291b994b267f7dd45bd5b752d1731a8b32cf26123352e42323d8823b9d9779c3
   languageName: node
   linkType: hard
 
@@ -6565,12 +6565,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-native@npm:0.70.8":
-  version: 0.70.8
-  resolution: "@types/react-native@npm:0.70.8"
+"@types/react-native@npm:0.71.3":
+  version: 0.71.3
+  resolution: "@types/react-native@npm:0.71.3"
   dependencies:
     "@types/react": "*"
-  checksum: e951992178f0a6a2a5bc5312824ad67146594840c03ec51156022eacb23e8db7be7470d0c9ad61828dbae840e531bf0cf553205b9dc290b358091329746fd094
+  checksum: 5ee02f9c780c630e145c1887c80d1739d59e01d45ff9e862b475538376ddd17fc605a1245fea04813593c1c0153b5f4a41247283036adcdfbf4779555f956d93
   languageName: node
   linkType: hard
 
@@ -7431,7 +7431,7 @@ __metadata:
   resolution: "app@workspace:packages/app"
   dependencies:
     "@my/ui": "*"
-    "@tamagui-extras/link": 1.0.3
+    "@tamagui-extras/link": 1.0.4
     "@tamagui/animations-react-native": ^1.15.15
     "@tamagui/colors": ^1.15.15
     "@tamagui/font-inter": ^1.15.15
@@ -15183,7 +15183,7 @@ __metadata:
     eslint: ^8.21.0
     prettier: ^2.7.1
     turbo: ^1.8.3
-    typescript: ^5.0.5
+    typescript: ^5.0.4
   languageName: unknown
   linkType: soft
 

@@ -1,7 +1,12 @@
-import { CustomToast } from '@my/ui'
+import {
+  CustomToast,
+  TamaguiProvider,
+  TamaguiProviderProps,
+  ToastProvider,
+  ToastViewport,
+} from '@my/ui'
 import config from '../tamagui.config'
 import { NavigationProvider } from './navigation'
-import { TamaguiProvider, TamaguiProviderProps, ToastProvider, ToastViewport } from '@my/ui'
 import { useColorScheme } from 'react-native'
 
 export function Provider({ children, ...rest }: Omit<TamaguiProviderProps, 'config'>) {
@@ -9,7 +14,7 @@ export function Provider({ children, ...rest }: Omit<TamaguiProviderProps, 'conf
   return (
     <TamaguiProvider
       config={config}
-      disableInjectCSS
+      disableInjectCSS={!process.env.STORYBOOK}
       defaultTheme={scheme === 'dark' ? 'dark' : 'light'}
       {...rest}
     >
