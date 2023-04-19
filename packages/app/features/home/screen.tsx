@@ -1,13 +1,12 @@
-import { Anchor, Button, H1, Paragraph, Separator, Sheet, XStack, YStack, useToast } from '@my/ui'
+import { Anchor, Button, H1, Paragraph, Separator, Sheet, useToast, XStack, YStack } from '@my/ui'
 import { ChevronDown, ChevronUp } from '@tamagui/lucide-icons'
 import React, { useState } from 'react'
-import { useLink } from 'solito/link'
-import { LmButton } from '@tamagui-extras/core'
+import { LmLinkButton } from '@tamagui-extras/link'
 
 export function HomeScreen() {
-  const linkProps = useLink({
-    href: '/user/nate',
-  })
+  // const linkProps = useLink({
+  //   href: '/user/nate',
+  // })
 
   return (
     <YStack f={1} jc="center" ai="center" p="$4" space>
@@ -37,7 +36,7 @@ export function HomeScreen() {
       </YStack>
 
       <XStack>
-        <LmButton {...linkProps}>Link to user</LmButton>
+        <LmLinkButton link={{ href: '/user/nate' }}>Link to user</LmLinkButton>
       </XStack>
 
       <SheetDemo />
