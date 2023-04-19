@@ -22,7 +22,7 @@
   "resolutions": {
     "@types/react-native": "0.70.8",
     "react": "18.2.0",
-    "esbuild": "0.17.16",
+    "esbuild": "0.15.5",
     "react-dom": "18.2.0",
     "react-refresh": "^0.14.0",
     "react-native-svg": "13.4.0",
